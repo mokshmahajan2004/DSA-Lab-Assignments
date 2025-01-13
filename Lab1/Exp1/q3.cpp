@@ -9,7 +9,6 @@ int gcd(int a, int b)
         return gcd(b, a % b);
     }
 }
-
 int main()
 {
     cout << "GCD of 10 and 7 is " << gcd(10, 7) << endl;

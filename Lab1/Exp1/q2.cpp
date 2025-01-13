@@ -8,7 +8,6 @@ int findSmallestN(int goal)
         sum += ++n;
     return n;
 }
-
 int main()
 {
     int goal;

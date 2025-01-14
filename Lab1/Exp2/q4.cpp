@@ -22,6 +22,5 @@ int main()
     cout << endl;
     shiftRight(arr, size);
     printArray(arr, size);
-
     return 0;
 }

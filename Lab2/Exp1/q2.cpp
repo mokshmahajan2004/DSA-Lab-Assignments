@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-void insertAtBeginning(int arr[], int &n, int element)
+void insertAtLast(int arr[], int &n, int element)
 {
-    for (int i = n; i > 0; i--)
-        arr[i] = arr[i - 1];
-    arr[0] = element;
+    arr[n] = element;
     n++;
 }
 void printArray(int arr[], int n)
@@ -23,7 +21,7 @@ int main()
         cin >> arr[i];
     cout << "Enter element to insert: ";
     cin >> element;
-    insertAtBeginning(arr, n, element);
+    insertAtLast(arr, n, element);
     printArray(arr, n);
     return 0;
 }

@@ -44,7 +44,7 @@ void save_to_csv(const string &filename, vector<vector<double>> &data)
 
 int main()
 {
-    vector<int> n_values = {1, 2, 3, 5, 10};
+    vector<int> n_values = {1, 2, 3, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50};
     vector<vector<double>> results;
 
     for (int n : n_values)
